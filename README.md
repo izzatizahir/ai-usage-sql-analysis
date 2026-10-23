@@ -1,53 +1,84 @@
-# AI Usage Analysis Using SQL
+# AI Usage Analysis & Productivity Dashboard
 
 ## Project Overview
-This project analyzes AI adoption patterns, productivity impact, and time-saving benefits across various professions using SQL.
 
-## Dataset
-The dataset contains information on:
-- User demographics
-- Profession
-- AI tools used
-- AI usage hours
-- Productivity scores
-- Time saved through AI
+This project analyzes AI adoption patterns, productivity impact, and time-saving benefits using SQL and Power BI.
 
-## SQL Skills Demonstrated
-- SELECT
-- COUNT()
-- AVG()
-- GROUP BY
-- ORDER BY
-- CASE WHEN
-- LIMIT
+The project combines data analysis and dashboard visualization to identify the most popular AI tools, measure productivity improvements, and understand user recommendations.
 
-## Business Questions Answered
+## Dashboard Preview
 
-1. How many users are included in the dataset?
-2. Which AI tools are most popular?
-3. Which professions use AI the most?
-4. Which professions have the highest productivity?
-5. How many hours does AI save on average?
-6. Who are the top 5 most productive users?
-7. Which AI tools are associated with higher productivity?
-8. Which age groups use AI the most?
+![Dashboard](AI_Usage_Dashboard.png)
 
-## Key Insights
-
-- Identified the most commonly used AI tools.
-- Measured AI adoption across professions.
-- Evaluated productivity outcomes.
-- Analyzed time-saving benefits.
-- Compared AI usage across age groups.
+---
 
 ## Tools Used
 
 - SQL
 - SQLite Online
+- Power BI
 - GitHub
+
+---
+
+## SQL Analysis
+
+Key business questions answered:
+
+1. Total users in the dataset
+2. Most popular AI tools
+3. AI usage by profession
+4. Productivity by profession
+5. Average time saved
+6. Top-performing users
+7. Productivity by AI tool
+8. Age group analysis
+
+---
+
+## Power BI Dashboard Features
+
+### KPI Cards
+
+- Total Users
+- Average Productivity
+- Average Daily AI Usage
+- Average Time Saved
+
+### Visualizations
+
+- AI Tool Popularity
+- Average Productivity by AI Tool
+- Average Time Saved by AI Tool
+- AI Recommendation Rate
+
+### Interactive Filters
+
+- Country
+- AI Tool
+- User Type
+
+---
+
+## Key Insights
+
+- ChatGPT is the most widely used AI tool.
+- Google Gemini and ChatGPT show strong productivity outcomes.
+- Deepseek demonstrates the highest average time savings.
+- Most users would recommend AI tools to others.
+
+---
 
 ## Project Files
 
-- `AI_Usage_Analysis.sql`
-- `ai_usage.csv`
-- Query screenshots
+- AI_Usage_Analysis.sql
+- ai_usage.csv
+- AI_Usage_Dashboard.png
+
+---
+
+## Author
+
+Nor Izzati Mohd Zahir
+
+Aspiring Data Analyst focused on SQL, Excel, and Power BI projects.
